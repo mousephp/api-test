@@ -1,0 +1,62 @@
+
+
+
+
+
+
+
+
+ví dụ 1:
+https://viblo.asia/p/lam-nhu-the-nao-de-tao-mot-restful-api-bang-laravel-gGJ59X3DlX2
+https://www.toptal.com/laravel/restful-laravel-api-tutorial
+
+
+E:\xampp\htdocs\Hoclaravel\Tuhoclaravel\api_test\routes\api.php
+E:\xampp\htdocs\Hoclaravel\Tuhoclaravel\api_test\app\Http\Controllers\ApiArticleController.php
+
+
+E:\xampp\htdocs\Hoclaravel\Tuhoclaravel\api_test\database\seeds\ApiUsersTableSeeder.php
+E:\xampp\htdocs\Hoclaravel\Tuhoclaravel\api_test\database\seeds\ApiArticlesTableSeeder.php
+E:\xampp\htdocs\Hoclaravel\Tuhoclaravel\api_test\database\migrations\2020_05_16_190624_create_api_articles_table.php
+
+(dùng để thay đổi prefix)
+E:\xampp\htdocs\Hoclaravel\Tuhoclaravel\api_test\app\Providers\RouteServiceProvider.php
+
+
+E:\xampp\htdocs\Hoclaravel\Tuhoclaravel\api_test\app\ApiArticle.php
+E:\xampp\htdocs\Hoclaravel\Tuhoclaravel\api_test\app\User.php
+
+
+
+(show)
+http://localhost:8080/Hoclaravel/Tuhoclaravel/api_test/public/api/articles
+(delete-DELETE) 
+http://localhost:8080/Hoclaravel/Tuhoclaravel/api_test/public/api/articles/51
+(showId-GET)
+http://localhost:8080/Hoclaravel/Tuhoclaravel/api_test/public/api/articles/52
+
+
+
+
+(/)
+tạo lọc dữ liệu: $ php artisan make:resource Product 
+không thực hiện được chức năng: delete,showId,edit
+
+(/)
+tạo:$ php artisan make:resource UserCollection
+không thực hiện được chức năng: delete,edit
+
+
+
+
+tk:code
+github.com/codegym-vn/laravel-restful-api
+github.com/codegym-vn/laravel-blog-restful-api
+
+
+facebook.com/groups/scuti.asia/permalink/2379011525724183/
+github.com/hungltph03955/RESTfulAPI?fbclid=IwAR3Xa_TKKVSXIjmAqZUAE8Hm_j9wnfjzCdE6mk8G6m00k2C2ADX_9f6i6G8
+
+
+
+
